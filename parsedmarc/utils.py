@@ -273,6 +273,7 @@ def get_ip_address_country(ip_address):
         str: And ISO country code associated with the given IP address
     """
     system_paths = [
+        "/usr/local/var/GeoIP/GeoLite2-Country.mmdb"
         "GeoLite2-Country.mmdb",
         "/usr/local/share/GeoIP/GeoLite2-Country.mmdb",
         "/usr/share/GeoIP/GeoLite2-Country.mmdb",
